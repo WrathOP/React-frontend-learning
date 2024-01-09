@@ -1,0 +1,47 @@
+.university-table-container {
+    margin: 20px;
+}
+
+.university-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.university-table th,
+.university-table td {
+    border: 1px solid #060606;
+    padding: 8px;
+    text-align: left;
+}
+
+.university-table th {
+    background-color: #ffffff;
+}
+
+.search-input {
+    float: left;
+    border: 16px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.custom-select {
+    float: right;
+    border: 16px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 17px;
+}
+.highlight {
+    background: rgb(153, 151, 184);
+    background: linear-gradient(
+        90deg,
+        rgba(153, 151, 184, 1) 0%,
+        rgba(179, 179, 252, 1) 25%,
+        rgba(0, 212, 255, 1) 100%
+    );
+}
